@@ -16,5 +16,6 @@
   "bugs": {
     "url": "https://github.com/shehza-d/node-cli-fun/issues"
   },
-  "homepage": "https://github.com/shehza-d/node-cli-fun#readme"
+  "homepage": "https://github.com/shehza-d/node-cli-fun#readme",
+  "keywords": ["shehzad","Name"]
 }

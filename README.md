@@ -17,4 +17,9 @@ npm login
 npm publish
 ```
 
-2. dff
+
+If a package name is not available use your username as prefix
+    "name": "@shehza-d/unavailable-pkg-name",
+```
+npm publish --access=public
+```
