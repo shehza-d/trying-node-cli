@@ -1,0 +1,37 @@
+{
+  "name": "shehzad-something",
+  "version": "1.0.0",
+  "description": "Writing my name in CLI with NODE JS and publishing it to NPM",
+  "main": "index.mjs",
+  "type": "module",
+  "bin": "./dist/index.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shehza-d/"
+  },
+  "author": "shehzad",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.1.2",
+    "chalk-animation": "^2.0.3",
+    "chalk": "^5.1.2",
+    "inquirer": "^9.1.4"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.10",
+    "@types/chalk": "^2.2.0",
+    "@types/chalk-animation": "^1.6.1",
+    "@types/inquirer": "^9.0.3"
+  },
+  "bugs": {
+    "url": "https://github.com/shehza-d/"
+  },
+  "homepage": "https://github.com/shehza-d/",
+  "keywords": [
+    "shehzad",
+    "Name"
+  ]
+}

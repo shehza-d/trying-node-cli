@@ -17,5 +17,8 @@
     "url": "https://github.com/shehza-d/node-cli-fun/issues"
   },
   "homepage": "https://github.com/shehza-d/node-cli-fun#readme",
-  "keywords": ["shehzad","Name"]
+  "keywords": [
+    "shehzad",
+    "Name"
+  ]
 }
