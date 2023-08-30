@@ -1,25 +1,40 @@
-25-Nov-2022
+# Publish Executable to NPM
 
-1. test your pkg before publishing to NPM
+1. Test your pkg before publishing to NPM
 
-2. Make this a NODE Project by initializing
-```
-npm init
-```
-<!-- ```npm link``` in example prod folder-->
-3. create account on npmjs.com
-4. Login to npm on CLI (Terminal)
-```
-npm login
-```
-5. Publish your work with 
-```
-npm publish
-```
+1. Make a NODE Project by initializing
 
+   ```bash
+   npm init
+   ```
+
+1. Add this in your package.json file
+
+   ```json
+     "bin": "index.js",
+   ```
+
+1. Add this on top of your file.
+
+   ```bash
+   #! /usr/bin/env node
+    ```
+
+1. Create account on [npmjs.com](npmjs.com)
+1. Login to npm on CLI (Terminal)
+
+   ```bash
+   npm login
+   ```
+
+1. Publish your work with
+
+```bash
+ npm publish --access=public
+```
 
 If a package name is not available use your username as prefix
-    "name": "@shehza-d/unavailable-pkg-name",
-```
-npm publish --access=public
-```
+
+"name": "@username/unavailable-pkg-name",
+
+"name": "@shehza-d/calculator",
