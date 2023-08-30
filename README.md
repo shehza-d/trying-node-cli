@@ -18,9 +18,9 @@
 
    ```bash
    #! /usr/bin/env node
-    ```
+   ```
 
-1. Create account on [npmjs.com](npmjs.com)
+1. Create account on [npmjs.com](https://www.npmjs.com/)
 1. Login to npm on CLI (Terminal)
 
    ```bash
@@ -29,9 +29,9 @@
 
 1. Publish your work with
 
-```bash
- npm publish --access=public
-```
+   ```bash
+    npm publish --access=public
+   ```
 
 If a package name is not available use your username as prefix
 
